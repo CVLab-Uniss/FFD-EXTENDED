@@ -13,7 +13,7 @@ To view the KDEF images you will need to [obtain the KDEF dataset separately](ht
 
 ## Naming convention 
 
-Fixation\_DB\_{IMAGE INDEX}.tsv
+Fixation\_DB\_{IMAGE INDEX}.jpg.tsv
 
 ## File Contents 
 
