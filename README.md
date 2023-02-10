@@ -2,7 +2,7 @@
 
 This dataset contains 120 files containing fixations calculated from human gazes over a selection of images from the Karolinska Directed Emotional Faces (KDEF) dataset.
 
-Any work which uses Uniss-FFD must reference the paper: []
+Any work which uses Uniss-FFD-EXTENDED must reference the paper: []
 
 ```
 
