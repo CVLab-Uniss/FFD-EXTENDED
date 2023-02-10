@@ -17,7 +17,7 @@ Fixation\_DB\_{IMAGE INDEX}.tsv
 
 ## File Contents 
 
-Each file contains a list of gaze data point where each row is a single gaze point and the columns correspond to: 
+Each file contains a list of gaze data point where each row is a single gaze point and the columns correspond to:<br>  
 •	ExportDate: Date when the file was exported (Year, Month, Day).
 •	StudioVersionRec: Tobii Studio release version used to perform the recording.
 •	RecordingDate: Date when the recording was performed (Year, Month, Day).
