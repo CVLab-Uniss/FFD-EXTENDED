@@ -114,6 +114,6 @@ The images have been indexed to preserve file-name length. The indicies with the
 <br>  
 
 | Index | Gender 	| 
-|--------------:	|  ---:---	|
+|--------------:|:---	|
 | 000 	| M 	| 
 | 001 	| M	  | 
