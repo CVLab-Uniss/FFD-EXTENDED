@@ -1,7 +1,7 @@
-# Uniss FGD Gaze Dataset
-This dataset contains 120 files containing fixations calculated from human gazes over a selection of images from the Karolinska Directed Emotional Faces (KDEF) dataset.
+# Uniss-FGD Facial Gaze Dataset
+This dataset contains 120 files containing gaze points calculated from human gazes over a selection of images from the Karolinska Directed Emotional Faces (KDEF) dataset.
 
-Any work which uses Uniss-FFD-EXTENDED must reference the paper: []
+Any work which uses Uniss-FGD must reference the paper: []
 
 ```
 
