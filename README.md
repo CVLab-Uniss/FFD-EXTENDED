@@ -12,13 +12,11 @@ To view the KDEF images you will need to [obtain the KDEF dataset separately](ht
 
 ## Naming convention 
 
-{IMAGE INDEX}.tsv
+{IMAGE INDEX}.csv
 
 ## File Contents 
 
 Each file contains a list of gaze data point where each row is a single gaze point and the columns correspond to:<br>  
-•	ExportDate: Date when the file was exported (Year, Month, Day).<br> 
-•	StudioVersionRec: Tobii Studio release version used to perform the recording.<br> 
 •	RecordingDate: Date when the recording was performed (Year, Month, Day).<br> 
 •	RecordingDuration: The duration of the recording (Milliseconds).<br> 
 •	RecordingResolution The resolution of the screen or of the video capture device used during the recording.<br> 
@@ -115,16 +113,16 @@ The images have been indexed to preserve file-name length. The indicies with the
 
 | Index | Gender 	| 
 |--------------:|:---	|
-| 0 	| M 	| 
-| 1 	| M	  | 
-| 2 	| M	  | 
-| 3 	| F	  |
-| 4 	| M	  | 
-| 5 	| M	  | 
-| 6 	| F	  | 
-| 7 	| F	  |
-| 8 	| F	  |
-| 9 	| M	  |
+| 00 	| M 	| 
+| 01 	| M	  | 
+| 02 	| M	  | 
+| 03 	| F	  |
+| 04 	| M	  | 
+| 05 	| M	  | 
+| 06 	| F	  | 
+| 07 	| F	  |
+| 08 	| F	  |
+| 09 	| M	  |
 | 10 	| F	  |
 | 11 	| M	  |
 | 12 	| F	  |
