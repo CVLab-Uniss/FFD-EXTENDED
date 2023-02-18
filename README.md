@@ -1,6 +1,6 @@
 # Uniss-FGD Facial Gaze Dataset
-This dataset contains 120 files containing gaze points calculated from human gazes over a selection of images from the Karolinska Directed Emotional Faces (KDEF) dataset.
-
+This dataset contains gaze points collected from 19 observers.
+A selection of 120 images extracted from the Karolinska Directed Emotional Faces (KDEF) database was used during the test. The KDEF DB is a set of totally 4900 pictures of human facial expressions of emotion. The set contains 70 individuals, each displaying 7 different emotional expressions, each expression being photographed (twice) from 5 different angles.
 Any work which uses Uniss-FGD must reference the paper: []
 
 ```
