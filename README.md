@@ -17,6 +17,7 @@ To view the KDEF images you will need to [obtain the KDEF dataset separately](ht
 ## File Contents 
 
 Each file contains a list of gaze data point where each row is a single gaze point and the columns correspond to:<br>  
+●	ParticipantName: unique anonymous identification number associated to each participant.
 •	RecordingDate: Date when the recording was performed (Year, Month, Day).<br> 
 •	RecordingDuration: The duration of the recording (Milliseconds).<br> 
 •	RecordingResolution The resolution of the screen or of the video capture device used during the recording.<br> 
@@ -58,7 +59,7 @@ Each file contains a list of gaze data point where each row is a single gaze poi
 •	EyePosRightZ (ADCSmm): Distance/depth coordinate of the 3D position of the right eye (Millimeters).<br> 
 •	PupilLeft: Estimated size of the left eye pupil. The Tobii Eye Trackers aim to measure the true pupil size, i.e. the algorithms take into account the magnification effect given by the spherical cornea as well as the distance to the eye (Millimeters).<br> 
 •	PupilRight: Estimated size of the right eye pupil. The Tobii Eye Trackers aim to measure the true pupil size, i.e. the algorithms take into account the magnification effect given by the spherical cornea as well as the distance to the eye (Millimeters).<br> 
-
+●	ParticipantGender: information about gender of each participant (anonimous).
 
 ## Image Index Lookup 
 
