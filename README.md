@@ -16,49 +16,49 @@ To view the KDEF images you will need to [obtain the KDEF dataset separately](ht
 ## File Contents 
 
 Each file (one for each of the 120 images showed to the observers during the test) contains a list of gaze data point where each row is a single gaze point and the columns correspond to:<br>  
-•	ParticipantName: unique anonymous identification number associated to each participant.<br>
-•	RecordingDate: Date when the recording was performed (Year, Month, Day).<br> 
-•	RecordingDuration: The duration of the recording (Milliseconds).<br> 
-•	RecordingResolution The resolution of the screen or of the video capture device used during the recording.<br> 
-•	MediaName: Name of the media element from the Tobii Studio test timeline.<br> 
-•	MediaPosX (ADCSpx): Horizontal coordinate of the left edge of the eye tracked media (pixels).<br> 
-•	MediaPosY (ADCSpx): Vertical coordinate of the top edge of the eye tracked media (Pixels).<br> 
-•	MediaWidth: Horizontal size of the eye tracked media (Pixels).<br> 
-•	MediaHeight: Vertical size of the eye tracked media (Pixels).<br> 
-•	RecordingTimestamp Timestamp counted from the start of the recording (t0=0). This timestamp is based on the internal computer clock of the computer running Tobii Studio. This clock is regularly synchronized with the eye tracker clock in order to ensure that the timestamps of the gaze data is accurate in relation to other events such as when media is shown or participant generated events such as mouse clicks (Milliseconds).<br> 
-•	FixationIndex: Represents the order in which a fixation event was recorded. The index is an auto-increment number starting with 1 (first gaze event detected).<br> 
-•	SaccadeIndex: Represents the order in which a saccade event was recorded. The index is an auto-increment number starting with 1 (first gaze event detected).<br> 
-•	GazeEventType: Type of eye movement event classified by the fixation filter settings applied during the gaze data export (Fixation; Saccade; Unclassified).<br> 
-•	GazeEventDuration: Duration of an eye movement event (Milliseconds).<br> 
-•	FixationPointX (MCSpx) Horizontal coordinate of the fixation point on the media. Column empty if: Fixation is outside media, Media is covered, No media is displayed. (Pixels).<br> 
-•	FixationPointY (MCSpx) Vertical coordinate of the fixation point on the media. Column empty if: Fixation is outside media, Media is covered, No media is displayed. (Pixels).<br> 
-•	SaccadicAmplitude: Distance in visual degrees between the previous fixation location and the current fixation location as defined by the fixation filter (Degrees).
-•	AbsoluteSaccadicDirection: Offset in degrees between the horizontal axis and the current fixation location where the previous fixation location is set as the origin (Degrees).<br> 
-•	RelativeSaccadicDirection: The difference between the absolute saccadic direction of the current and previous saccade where the current saccade is between the current and previous fixation (Degrees).<br> 
-•	GazePointIndex: Represents the order in which the gaze sample was acquired by Tobii Studio from an eye tracker. The index is an auto-increment number starting with 1 (first gaze sample).<br> 
-•	GazePointLeftX (ADCSpx): Horizontal coordinate of the unprocessed gaze point for the left eye on the screen (Pixels).<br> 
-•	GazePointLeftY (ADCSpx): Vertical coordinate of the unprocessed gaze point for the left eye on the screen (Pixels).<br> 
-•	GazePointRightX (ADCSpx): Horizontal coordinate of the unprocessed gaze point for the right eye on the screen (Pixels).<br> 
-•	GazePointRightY (ADCSpx): Vertical coordinate of the unprocessed gaze point for the right eye on the screen (Pixels).<br> 
-•	GazePointX (ADCSpx): Horizontal coordinate of the averaged left and right eye gaze point on the screen (Pixels).<br> 
-•	GazePointY (ADCSpx): Vertical coordinate of the averaged left and right eye gaze point on the screen (Pixels).<br> 
-•	GazePointX (MCSpx): Horizontal coordinate of the averaged left and right eye gaze point on the media element. Column empty if: Fixation is outside media, Media is covered, No media is displayed (Pixels).<br> 
-•	GazePointY (MCSpx): Vertical coordinate of the averaged left and right eye gaze point on the media element. Column empty if: Fixation is outside media, Media is covered, No media is displayed (Pixels).<br> 
-•	GazePointLeftX (ADCSmm): Horizontal coordinate of the unprocessed gaze point for the left eye on the screen (Millimeters).<br> 
-•	GazePointLeftY (ADCSmm): Vertical coordinate of the unprocessed gaze point for the left eye on the screen (Millimeters).<br> 
-•	GazePointRightX (ADCSmm): Horizontal coordinate of the unprocessed gaze point for the right eye on the screen (Millimeters).<br> 
-•	GazePointRightY (ADCSmm): Vertical coordinate of the unprocessed gaze point for the right eye on the screen (Millimeters).<br> 
-•	StrictAverageGazePointX (ADCSmm): Horizontal coordinate of the averaged gaze point for both eyes on the screen. “average” function similar to the one used for Eye selection (Millimeters).<br> 
-•	StrictAverageGazePointY (ADCSmm): Vertical coordinate of the averaged gaze point for both eyes on the screen. “average” function similar to the one used for Eye selection (Millimeters).<br> 
-•	EyePosLeftX (ADCSmm): Horizontal coordinate of the 3D position of the left eye. (Millimeters).<br> 
-•	EyePosLeftY (ADCSmm): Vertical coordinate of the 3D position of the left eye (Millimeters).<br> 
-•	EyePosLeftZ (ADCSmm): Distance/depth coordinate of the 3D position of the left eye (Millimeters).<br> 
-•	EyePosRightX (ADCSmm): Horizontal coordinate of the 3D position of the right eye (Millimeters).<br> 
-•	EyePosRightY (ADCSmm): Vertical coordinate of the 3D position of the right eye (Millimeters).<br> 
-•	EyePosRightZ (ADCSmm): Distance/depth coordinate of the 3D position of the right eye (Millimeters).<br> 
-•	PupilLeft: Estimated size of the left eye pupil. The Tobii Eye Trackers aim to measure the true pupil size, i.e. the algorithms take into account the magnification effect given by the spherical cornea as well as the distance to the eye (Millimeters).<br> 
-•	PupilRight: Estimated size of the right eye pupil. The Tobii Eye Trackers aim to measure the true pupil size, i.e. the algorithms take into account the magnification effect given by the spherical cornea as well as the distance to the eye (Millimeters).<br> 
-•	ParticipantGender: information about gender of each participant (anonimous).
+•	**ParticipantName:** unique anonymous identification number associated to each participant.<br>
+•	**RecordingDate:** Date when the recording was performed (Year, Month, Day).<br> 
+•	**RecordingDuration:** The duration of the recording (Milliseconds).<br> 
+•	**RecordingResolution:** The resolution of the screen or of the video capture device used during the recording.<br> 
+•	**MediaName:** Name of the media element from the Tobii Studio test timeline.<br> 
+•	**MediaPosX (ADCSpx):** Horizontal coordinate of the left edge of the eye tracked media (pixels).<br> 
+•	**MediaPosY (ADCSpx):** Vertical coordinate of the top edge of the eye tracked media (Pixels).<br> 
+•	**MediaWidth:** Horizontal size of the eye tracked media (Pixels).<br> 
+•	**MediaHeight:** Vertical size of the eye tracked media (Pixels).<br> 
+•	**RecordingTimestamp:** Timestamp counted from the start of the recording (t0=0). This timestamp is based on the internal computer clock of the computer running Tobii Studio. This clock is regularly synchronized with the eye tracker clock in order to ensure that the timestamps of the gaze data is accurate in relation to other events such as when media is shown or participant generated events such as mouse clicks (Milliseconds).<br> 
+•	**FixationIndex:** Represents the order in which a fixation event was recorded. The index is an auto-increment number starting with 1 (first gaze event detected).<br> 
+•	**SaccadeIndex:** Represents the order in which a saccade event was recorded. The index is an auto-increment number starting with 1 (first gaze event detected).<br> 
+•	**GazeEventType:** Type of eye movement event classified by the fixation filter settings applied during the gaze data export (Fixation; Saccade; Unclassified).<br> 
+•	**GazeEventDuration:** Duration of an eye movement event (Milliseconds).<br> 
+•	**FixationPointX (MCSpx):** Horizontal coordinate of the fixation point on the media. Column empty if: Fixation is outside media, Media is covered, No media is displayed. (Pixels).<br> 
+•	**FixationPointY (MCSpx):** Vertical coordinate of the fixation point on the media. Column empty if: Fixation is outside media, Media is covered, No media is displayed. (Pixels).<br> 
+•	**SaccadicAmplitude:** Distance in visual degrees between the previous fixation location and the current fixation location as defined by the fixation filter (Degrees).
+•	**AbsoluteSaccadicDirection:** Offset in degrees between the horizontal axis and the current fixation location where the previous fixation location is set as the origin (Degrees).<br> 
+•	**RelativeSaccadicDirection:** The difference between the absolute saccadic direction of the current and previous saccade where the current saccade is between the current and previous fixation (Degrees).<br> 
+•	**GazePointIndex:** Represents the order in which the gaze sample was acquired by Tobii Studio from an eye tracker. The index is an auto-increment number starting with 1 (first gaze sample).<br> 
+•	**GazePointLeftX (ADCSpx):** Horizontal coordinate of the unprocessed gaze point for the left eye on the screen (Pixels).<br> 
+•	**GazePointLeftY (ADCSpx):** Vertical coordinate of the unprocessed gaze point for the left eye on the screen (Pixels).<br> 
+•	**GazePointRightX (ADCSpx):** Horizontal coordinate of the unprocessed gaze point for the right eye on the screen (Pixels).<br> 
+•	**GazePointRightY (ADCSpx):** Vertical coordinate of the unprocessed gaze point for the right eye on the screen (Pixels).<br> 
+•	**GazePointX (ADCSpx):** Horizontal coordinate of the averaged left and right eye gaze point on the screen (Pixels).<br> 
+•	**GazePointY (ADCSpx):** Vertical coordinate of the averaged left and right eye gaze point on the screen (Pixels).<br> 
+•	**GazePointX (MCSpx):** Horizontal coordinate of the averaged left and right eye gaze point on the media element. Column empty if: Fixation is outside media, Media is covered, No media is displayed (Pixels).<br> 
+•	**GazePointY (MCSpx):** Vertical coordinate of the averaged left and right eye gaze point on the media element. Column empty if: Fixation is outside media, Media is covered, No media is displayed (Pixels).<br> 
+•	**GazePointLeftX (ADCSmm):** Horizontal coordinate of the unprocessed gaze point for the left eye on the screen (Millimeters).<br> 
+•	**GazePointLeftY (ADCSmm):** Vertical coordinate of the unprocessed gaze point for the left eye on the screen (Millimeters).<br> 
+•	**GazePointRightX (ADCSmm):** Horizontal coordinate of the unprocessed gaze point for the right eye on the screen (Millimeters).<br> 
+•	**GazePointRightY (ADCSmm):** Vertical coordinate of the unprocessed gaze point for the right eye on the screen (Millimeters).<br> 
+•	**StrictAverageGazePointX (ADCSmm):** Horizontal coordinate of the averaged gaze point for both eyes on the screen. “average” function similar to the one used for Eye selection (Millimeters).<br> 
+•	**StrictAverageGazePointY (ADCSmm):** Vertical coordinate of the averaged gaze point for both eyes on the screen. “average” function similar to the one used for Eye selection (Millimeters).<br> 
+•	**EyePosLeftX (ADCSmm):** Horizontal coordinate of the 3D position of the left eye. (Millimeters).<br> 
+•	**EyePosLeftY (ADCSmm):** Vertical coordinate of the 3D position of the left eye (Millimeters).<br> 
+•	**EyePosLeftZ (ADCSmm):** Distance/depth coordinate of the 3D position of the left eye (Millimeters).<br> 
+•	**EyePosRightX (ADCSmm):** Horizontal coordinate of the 3D position of the right eye (Millimeters).<br> 
+•	**EyePosRightY (ADCSmm):** Vertical coordinate of the 3D position of the right eye (Millimeters).<br> 
+•	**EyePosRightZ (ADCSmm):** Distance/depth coordinate of the 3D position of the right eye (Millimeters).<br> 
+•	**PupilLeft:** Estimated size of the left eye pupil. The Tobii Eye Trackers aim to measure the true pupil size, i.e. the algorithms take into account the magnification effect given by the spherical cornea as well as the distance to the eye (Millimeters).<br> 
+•	**PupilRight:** Estimated size of the right eye pupil. The Tobii Eye Trackers aim to measure the true pupil size, i.e. the algorithms take into account the magnification effect given by the spherical cornea as well as the distance to the eye (Millimeters).<br> 
+•	**ParticipantGender:** information about gender of each participant (anonimous).
 
 ## Image Index Lookup 
 
