@@ -32,7 +32,7 @@ Each file (one for each of the 120 images showed to the observers during the tes
 •	**GazeEventDuration:** Duration of an eye movement event (Milliseconds).<br> 
 •	**FixationPointX (MCSpx):** Horizontal coordinate of the fixation point on the media. Column empty if: Fixation is outside media, Media is covered, No media is displayed. (Pixels).<br> 
 •	**FixationPointY (MCSpx):** Vertical coordinate of the fixation point on the media. Column empty if: Fixation is outside media, Media is covered, No media is displayed. (Pixels).<br> 
-•	**SaccadicAmplitude:** Distance in visual degrees between the previous fixation location and the current fixation location as defined by the fixation filter (Degrees).
+•	**SaccadicAmplitude:** Distance in visual degrees between the previous fixation location and the current fixation location as defined by the fixation filter (Degrees).<br>
 •	**AbsoluteSaccadicDirection:** Offset in degrees between the horizontal axis and the current fixation location where the previous fixation location is set as the origin (Degrees).<br> 
 •	**RelativeSaccadicDirection:** The difference between the absolute saccadic direction of the current and previous saccade where the current saccade is between the current and previous fixation (Degrees).<br> 
 •	**GazePointIndex:** Represents the order in which the gaze sample was acquired by Tobii Studio from an eye tracker. The index is an auto-increment number starting with 1 (first gaze sample).<br> 
