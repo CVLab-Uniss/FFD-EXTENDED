@@ -16,7 +16,7 @@ To view the KDEF images you will need to [obtain the KDEF dataset separately](ht
 ## File Contents 
 
 Each file (one for each of the 120 images showed to the observers during the test) contains a list of gaze data point where each row is a single gaze point and the columns correspond to:<br>  
-•	ParticipantName: unique anonymous identification number associated to each participant.
+•	ParticipantName: unique anonymous identification number associated to each participant.<br>
 •	RecordingDate: Date when the recording was performed (Year, Month, Day).<br> 
 •	RecordingDuration: The duration of the recording (Milliseconds).<br> 
 •	RecordingResolution The resolution of the screen or of the video capture device used during the recording.<br> 
