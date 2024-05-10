@@ -20,7 +20,6 @@ Each file (one for each of the 120 images showed to the observers during the tes
 •	**RecordingDate:** Date when the recording was performed (Year, Month, Day).<br> 
 •	**RecordingDuration:** The duration of the recording (Milliseconds).<br> 
 •	**RecordingResolution:** The resolution of the screen or of the video capture device used during the recording.<br> 
-<!---•	**MediaName:** Name of the media element from the Tobii Studio test timeline.<br>-->
 •	**MediaPosX (ADCSpx):** Horizontal coordinate of the left edge of the eye tracked media (pixels).<br> 
 •	**MediaPosY (ADCSpx):** Vertical coordinate of the top edge of the eye tracked media (Pixels).<br> 
 •	**MediaWidth:** Horizontal size of the eye tracked media (Pixels).<br> 
@@ -59,6 +58,7 @@ Each file (one for each of the 120 images showed to the observers during the tes
 •	**PupilLeft:** Estimated size of the left eye pupil. The Tobii Eye Trackers aim to measure the true pupil size, i.e. the algorithms take into account the magnification effect given by the spherical cornea as well as the distance to the eye (Millimeters).<br> 
 •	**PupilRight:** Estimated size of the right eye pupil. The Tobii Eye Trackers aim to measure the true pupil size, i.e. the algorithms take into account the magnification effect given by the spherical cornea as well as the distance to the eye (Millimeters).<br> 
 •	**ParticipantGender:** information about gender of each participant (anonimous).
+<!---•	**MediaName:** Name of the media element from the Tobii Studio test timeline.<br>-->
 
 ## Image Index Lookup 
 
