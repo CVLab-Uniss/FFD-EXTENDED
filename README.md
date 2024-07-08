@@ -133,3 +133,15 @@ The images have been indexed to preserve file-name length. The indicies with the
 | 17 	| M	  |
 | 18 	| F	  |
 | 19 	| M	  |
+
+## Citation
+If you find this dataset useful for your research, welcome to 🌟 this repo and cite our work using the following BibTeX:
+
+@article{ruiu2024uniss,
+  title={Uniss-FGD: A Novel Dataset of Human Gazes Over Images of Faces},
+  author={Ruiu, Pietro and Fadda, Mauro and Lagorio, Andrea and Nixon, Seth and Anedda, Matteo and Grosso, Enrico and Cadoni, Marinella Iole},
+  journal={IEEE Access},
+  volume={12},
+  pages={75951--75964},
+  year={2024}
+}
