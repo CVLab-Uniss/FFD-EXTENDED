@@ -1,12 +1,5 @@
 # Uniss-FGD Facial Gaze Dataset
 This dataset contains gaze points collected from 20 observers. The measurement tests have been performed at the University of Sassari, in a dedicated 8 x 6 x 3.10 m (l x w x h) room equipped with a chair and a desk, a Tobii Eye Tracker connected to a PC running the Tobii Pro Studio Eye Tracking software, and a WiFi internet connection. Observers were sat at 2.5 times the height of the Tobii monitor distant from the eye tracker and were informed that they would be shown images of faces.  A selection of 120 images extracted from the Karolinska Directed Emotional Faces (KDEF) database was used during the test. The KDEF DB is a set of totally 4900 pictures of human facial expressions of emotion. The set contains 70 individuals, each displaying 7 different emotional expressions, each expression being photographed (twice) from 5 different angles.
-Any work which uses Uniss-FGD must reference the paper: []
-
-```
-
-
-```
-
 To view the KDEF images you will need to [obtain the KDEF dataset separately](https://www.kdef.se/).
 
 ## Naming convention 
@@ -137,6 +130,7 @@ The images have been indexed to preserve file-name length. The indicies with the
 ## Citation
 If you find this dataset useful for your research, welcome to 🌟 this repo and cite our work using the following BibTeX:
 
+```
 @article{ruiu2024uniss,
   title={Uniss-FGD: A Novel Dataset of Human Gazes Over Images of Faces},
   author={Ruiu, Pietro and Fadda, Mauro and Lagorio, Andrea and Nixon, Seth and Anedda, Matteo and Grosso, Enrico and Cadoni, Marinella Iole},
@@ -145,3 +139,4 @@ If you find this dataset useful for your research, welcome to 🌟 this repo and
   pages={75951--75964},
   year={2024}
 }
+```
